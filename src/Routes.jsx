@@ -6,7 +6,7 @@ import It from "./components/it";
 import ItWayUp from "./components/itWayUp";
 import Main from "./components/main";
 import Map from "./components/map";
-import Profile from "./components/main";
+import Profile from "./components/profile";
 import Results from "./components/results";
 
 // Routes
