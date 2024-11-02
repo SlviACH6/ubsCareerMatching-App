@@ -23,7 +23,7 @@ export default function ITDeveloper() {
             pariatur."
           </p>
         </div>
-        <Link to="">
+        <Link to="/exercise">
           <div className="flex flex-col items-center border rounded w-auto mt-6">
             <div className="font-mono p-4">
               <h3 className="">TEST THE JOB:</h3>

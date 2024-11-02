@@ -10,6 +10,7 @@ import Map from "./components/map";
 import Profile from "./components/profile";
 import Results from "./components/results";
 import ProfileLevel from "./components/profileLevel";
+import Exercise from "./components/exercise";
 
 function Router() {
   return (
@@ -24,6 +25,7 @@ function Router() {
         <Route path="/map" element={<Map />} />
         <Route path="/results" element={<Results />} />
         <Route path="/profileLevel" element={<ProfileLevel />} />
+        <Route path="/exercise" element={<Exercise />} />
       </Routes>
     </BrowserRouter>
   );
