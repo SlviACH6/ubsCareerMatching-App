@@ -19,7 +19,7 @@ export default function main() {
             Explore, discover and choose your UBS career path
           </h1>
 
-          <Link to="/profile">
+          <Link to="/profileLevel">
             <button className="bg-red-200 hover:bg-red-600 text-white font-bold  w-56 p-3 rounded">
               <strong> Let´s Start!</strong>
             </button>
