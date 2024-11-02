@@ -8,17 +8,23 @@ export default function main() {
         <div className="flex flex-col justify-center items-center m-6">
           <img className="w-40" src={UBS_Logo} alt="logo" />
           <h1 className="text-lm mt-6 font-bold mb-2">
-            Explore, discover and choose your UBS career path
+            Welcome to the UBS career pathfinder
           </h1>
         </div>
         <div>
           <video src="" className="w-full rounded" controls></video>
         </div>
-        <Link to="/profile">
-          <button className="bg-red-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-12">
-            <strong> Let´s Start!</strong>
-          </button>
-        </Link>
+        <div className="mt-10">
+          <h1 className="text-lm mt-6 mb-6">
+            Explore, discover and choose your UBS career path
+          </h1>
+
+          <Link to="/profile">
+            <button className="bg-red-200 hover:bg-red-600 text-white font-bold  w-56 p-3 rounded">
+              <strong> Let´s Start!</strong>
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
