@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function landingPage() {
   return (
     <div>
-      <h1>title of the challenge</h1>
-      <h1>slogan</h1>
+      <h1>USB Career Pathfinder</h1>
+      <h1>Explore, discover and choose your UBS carrer path</h1>
       <h2>description and porpusse</h2>
       <Link to="/profile">
         <button>
