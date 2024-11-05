@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import femaleBgImage from "../assets/femaleBgImage.png";
+import maleBgImage from "../assets/maleBgImage.png";
 
 export default function profile() {
   return (
@@ -10,16 +12,22 @@ export default function profile() {
         </div>
         <div>
           <Link to="/itDeveloper">
-            <div className="flex flex-col items-start border rounded-lg text-white h-32 w-full bg-red-600 mb-10">
+            <div
+              className="flex flex-col items-start border rounded-lg text-white h-32 w-full bg-cover bg-center mb-10"
+              style={{ backgroundImage: `url(${femaleBgImage})` }}
+            >
               <div className="m-4">
-                <h1 className="mb-6">Woman</h1>
+                <h1 className="mb-6">Female</h1>
               </div>
             </div>
           </Link>
           <Link to="/itDeveloper">
-            <div className="flex flex-col items-start border rounded-lg text-white h-32 w-full bg-red-600">
+            <div
+              className="flex flex-col items-start border rounded-lg text-white h-32 w-full bg-cover bg-center"
+              style={{ backgroundImage: `url(${maleBgImage})` }}
+            >
               <div className="m-4">
-                <h1 className="mb-6">Man</h1>
+                <h1 className="mb-6">Male</h1>
               </div>
             </div>
           </Link>
