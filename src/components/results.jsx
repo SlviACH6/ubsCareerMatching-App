@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
 import results from "../assets/results.png";
+import UBS_Logo from "../assets/UBS_Logo.png";
+import { Link } from "react-router-dom";
 
 export default function exercise() {
   return (
@@ -23,7 +24,11 @@ export default function exercise() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center"></div>
+        <Link to="https://www.ubs.com/global/en/careers/apprenticeship/grow.html">
+          <div className="flex flex-col items-center">
+            <img src={UBS_Logo} alt="ubslogo" className="w-28 mt-6" />
+          </div>
+        </Link>
       </div>
     </div>
   );
